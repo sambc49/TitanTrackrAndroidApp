@@ -1,0 +1,1 @@
+This Android application is used in conjunction with the PHP website in order to scan gym activity and build up a record of workouts. 

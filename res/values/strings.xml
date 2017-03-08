@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">titanTrackr</string>
+    <string name="action_settings">Settings</string>
+    <string name="nfcText">Scan your machine...</string>
+    <string name="nextButton">Next Activity</string>
+    <string name="title_activity_json">JsonActivity</string>
+    <string name="logButtonTest">PRESS HERE FOR LOG</string>
+    <string name="title_activity_recieve_json">RecieveJSON</string>
+    <string name="yourDataTitle">Your Gym Data</string>
+    <string name="titan">Titan</string>
+    <string name="trackr">Trackr</string>
+    <string name="repsTitle">Repititions:</string>
+    <string name="repsData">Reps Data Here</string>
+    <string name="weightTitle">Weight:</string>
+    <string name="appID">1387682141496406</string>
+    <string name="weightData">Weight Data Here</string>
+    <string name="loginTitle">Please Login.</string>
+    <string name="username">Username:</string>
+    <string name="email">Email:</string>
+    <string name="passwordTitle">Password:</string>
+    <string name="firstnameTitle">Firstname:</string>
+    <string name="surnameTitle">Surname:</string>
+    <string name="goalTitle">Goal:</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="title">titanTrackr</string>
+	<string name="enterManually">Enter Your Data Manually</string>
+	<string name="select_exc">Select Exercise:</string>
+    <color name="darkBlue">#122975</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightBlue">#5a72b7</color>
+
+    <string name="title_activity_enter_manually">Enter_manually</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

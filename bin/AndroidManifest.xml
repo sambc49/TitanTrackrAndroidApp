@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.titantrackr"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_light"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Splash Screen -->
+        <activity
+            android:name="com.example.titantrackr.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.titantrackr.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.titantrackr.RecieveJSON"
+            android:label="@string/title_activity_recieve_json" >
+        </activity>
+        <activity android:name="com.example.titantrackr.NfcOverview" >
+        </activity>
+        <activity android:name="com.example.titantrackr.Login" >
+        </activity>
+        <activity android:name="com.example.titantrackr.Register" >
+        </activity>
+        <activity
+            android:name="com.example.titantrackr.EnterManually"
+            android:label="@string/title_activity_enter_manually" >
+        </activity>
+    </application>
+
+</manifest>
